@@ -24,7 +24,7 @@ public class Main {
     public static void task3() {
         System.out.println("Задание 3");
         String fullName = "Иванов Семён Семёнович";
-        String streetTrue = fullName.replace("ё", "е");
-        System.out.println("Данные Ф. И. О. сотрудника — " + streetTrue);
+        String fullNameTrue = fullName.replace("ё", "е");
+        System.out.println("Данные Ф. И. О. сотрудника — " + fullNameTrue);
     }
 }
